@@ -1,0 +1,22 @@
+div{
+	position: absolute;
+    margin-left: 550px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.title{
+	font-size: 32px;
+	text-align: center;
+}
+
+.line{
+	border-top: 5px solid red;
+}
+.date{
+	width: 30px
+}
+
+.btn{
+	margin-top: 10px;
+}

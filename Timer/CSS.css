@@ -1,0 +1,30 @@
+#hourin{
+    margin-left: 10px; 
+    margin-top: 15px; 
+    width: 40px;
+}
+#minin{
+    margin-left: 10px; 
+    margin-top: 15px; 
+    width: 40px;
+}
+#secondin{
+    margin-left: 10px; 
+    margin-top: 15px; 
+    width: 40px;
+}
+#btn{
+    margin-top: 10px; 
+    margin-left: 75px
+}
+
+.nb{
+    font-size: 7em;
+    color: #ef025d;
+    font-weight: bold; 
+}
+
+.str{
+    font-size: 1em;
+    color: #ef025d;
+}

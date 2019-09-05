@@ -1,0 +1,173 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+	font-family: Comic Sans MS, sans-serif;
+}
+body {
+	overflow: hidden;
+background: linear-gradient(90deg, rgba(241,133,134,1) 0%, rgba(247,120,208,1) 48%, rgba(165,121,235,1) 100%);
+	overflow: scroll;
+}
+.div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pp{
+	display: grid;
+	text-align: center;
+	margin-top: 25px;
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 60px;
+	color: white;
+	font-weight: bold;
+}
+
+.formation{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.label{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+#std_code{
+	margin-right: 85px;
+}
+
+#std_age{
+	margin-right: 85px;
+	width: 100px;
+}
+
+.input_text{
+    border-radius: 5px;
+	outline-style: none;
+	width: 300px;
+	height: 35px;
+	margin-left: 15px;
+	font-size: 22px;
+	color: crimson;
+	font-weight: bold;
+}
+#gender_male{
+	margin-left: 8px;
+	top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+#gender_female{
+	margin-left: 8px;
+	top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.label_gender{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	margin-left: 2px;
+}
+
+.line{
+	border-top: 5px solid white;
+	margin-top: 20px;
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.p_title{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.show_std{
+	display: grid;
+	margin-top: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(241,133,134);
+	font-family: Comic Sans MS;
+}
+
+.table {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+.table th {
+    background-color: white;
+    padding: 5px;
+}
+.table td {
+    background-color: #f0e7da;
+    padding: 5px;
+}
+.td_title1{
+	width: 400px;
+}
+.td_title2{
+	width: 550px;
+}
+.td_title3{
+	width: 250px;
+}
+.td_title4{
+	width: 300px;
+}
+
+.function{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+.btn {
+  background-color: #58257b; /* Màu của Quản trị mạng ^^ */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.btn1 {
+  background-color: white; 
+  color: crimson; 
+  border: 2px solid crimson;
+}
+
+.btn1:hover {
+  background-color: crimson;
+  color: white;
+}

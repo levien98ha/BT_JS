@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="eventCSS.css">
+	<title>EVENT JAVASCRIPT</title>
+</head>
+<body>
+	<div>
+		<form id="form">
+			<h1 id="title" class="title">Đăng ký hòm thư</h1>
+			<p class="line" />
+			<br/>
+			<label>User Name:</label>
+			<input type="text" id="user_in" data-toggle="tooltip" title="Nhập mã người dùng"><br/>
+			<label>Password</label>
+			<input type="Password" id="pass_in" data-toggle="tooltip" title="Nhập Password">
+			<label>Gõ lại Password</label>
+			<input type="Password" id="pass_check" data-toggle="tooltip" title="Nhập lại Password"> <br/>
+			<label>Giới tính:</label>
+			<input type="radio" id="male" name="gender" value="Nam">Nam
+			<input type="radio" id="female" name="gender" value="Nữ">Nữ
+			<br/>
+			<label>Ngày/ tháng/ năm sinh:</label>
+			<input type="text" id="day" class="date" data-toggle="tooltip" title="Nhập ngày"> /
+			<input type="text" id="month" class="date" data-toggle="tooltip" title="Nhập tháng"> /
+			<input type="text" id="year" class="date" data-toggle="tooltip" title="Nhập năm">
+			<br />
+			<p class="line"/>
+			<input type="button" id="btn" name="btn" class="btn" value="Đăng ký" data-toggle="tooltip" title="Nhấn để đăng ký">
+		</form>
+	</div>
+	<script type="text/javascript" src="eventJs.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stdCSS.css">
+	<title>QUẢN LÝ HỌC SINH</title>
+</head>
+<body>
+	<div class="div">
+		<div class="form">
+			<p class="pp">THÔNG TIN HỌC SINH</p>
+			<div class="formation">
+				<label class="label">Mã số học sinh:</label>
+				<input type="text" id="std_code" class="input_text">
+				<label class="label">Họ tên học sinh:</label>
+				<input type="text" id="std_name" class="input_text"><br/>
+				<label class="label">Tuổi:</label>
+				<input type="text" id="std_age" class="input_text">
+				<label class="label">Giới tính:</label>
+				<input type="radio" id="gender_male" name="gender">
+				<label class="label_gender">Nam</label>
+				<input type="radio" id="gender_female" name="gender">
+				<label class="label_gender">Nữ</label>
+				<br/>
+			</div>
+			<div class="function">
+				<input type="button" id="reset_std" class="btn btn1" value="Reset" data-toggle="tooltip" title="Nhấn để reset các trường">
+				<input type="button" id="add_std" class="btn btn1" value="Add" data-toggle="tooltip" title="Nhấn để thêm">
+				<input type="button" id="edit_std" class="btn btn1" value="Edit" data-toggle="tooltip" title="Nhấn để chỉnh sửa">
+				<input type="button" id="delete_std" class="btn btn1" value="Delete" data-toggle="tooltip" title="Chọn học sinh cần xóa">
+				<input type="button" id="show_std" class="btn btn1" value="Show" data-toggle="tooltip" title="Nhấn để xem danh sách">
+			</div>
+			<p class="line"></p>
+			<p class="p_title">DANH SÁCH HỌC SINH</p>
+			<div class="show_std">
+				<table class="table" id="table_id">
+				<tr class="title" id="title_id">
+					<th class="td_title1">Mã số</th>
+					<th class="td_title2">Họ tên</th>
+					<th class="td_title3">Tuổi</th>
+					<th class="td_title4">Giới tính</th>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="StdJs.js"></script>
+</body>
+</html>

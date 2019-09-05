@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	overflow: hidden;
+	background: #DC143C;
+}
+.div {
+	margin-top: 90px;
+	display: grid;
+}
+.form{
+	border: 3px solid white;
+	width: 550px;
+	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 25px;
+	box-shadow: 0px 0px 14px 0px grey;
+	background-color: white;
+	margin-top: 30px;
+}
+.h2{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	font-size: 50px;
+	text-align: center;
+	font-family: Comic Sans MS;
+	color: #DC143C;
+}
+.show{
+	margin-top: 35px;
+	border: 3px solid #DC143C;
+	background: white;
+	height: 95px;
+	width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15px;
+	text-align: center;
+	
+}
+
+#show_result{
+	font-family: Comic Sans MS;
+	font-size: 30px;
+	color: #DC143C;
+	margin-top: 15px;
+}
+.function{
+	margin-top: 40px;
+}
+.btn{
+	-moz-box-shadow:inset 0px 1px 0px 0px #DC143C;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #DC143C;
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d));
+	background:-moz-linear-gradient(top, #DC143C 5%, #DC143C 70%);
+	background:-webkit-linear-gradient(top, #DC143C 5%, #DC143C 70%);
+	background:-o-linear-gradient(top, #DC143C 5%, #DC143C 70%);
+	background:-ms-linear-gradient(top, #DC143C 5%, #DC143C 70%);
+	background:linear-gradient(to bottom, #DC143C 5%, #DC143C 70%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d',GradientType=0);
+	background-color:#DC143C;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+	width: 130px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+.text{
+	border: 3px solid #DC143C;
+	background: white;
+	height: 30px;
+	width: 85px;
+	margin-left: 15px;
+	border-radius: 15px;
+	text-align: center;
+	color: #DC143C;
+	font-family: Comic Sans MS;
+	font-size: 15px;
+	font-weight: bold;
+}
+.label{
+	margin-left: 30px;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	color: #DC143C;
+	font-weight: bold;
+
+}
